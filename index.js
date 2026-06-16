@@ -29,7 +29,7 @@ client.once("ready", async () => {
 
   // Trap 1 — 20h15 tous les 2 jours
 cron.schedule(
-  "15 20 2-31/2 * *",
+  "15 20 1-31/2 * *",
   () => {
     channel.send(`${ROLE_TRAP_1} 15 minutes before doing something miraculous`);
   },
